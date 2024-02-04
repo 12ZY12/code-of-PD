@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "code-of-pd"
+version = "0.1.0"
+description = ""
+authors = ["Chen Song <chen@song>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.0"
+jupyterlab = "^4.0.12"
+jupyter-contrib-nbextensions = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
